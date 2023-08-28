@@ -1,0 +1,54 @@
+/* بسم الله الرحمن الرحيم */
+
+
+.wrapper-modal {
+    position: absolute;;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+}
+.wrapper-modal .modal{
+    position: absolute;;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #dca937 solid 1px;
+    border-radius: 7px;
+    background: #303436;
+    padding: 10px 25px 25px 25px;
+}
+.x-cancel {
+    width: 100%;text-align: right;font-size:2rem; font-family: sans-serif;
+}
+.x-cancel span {
+    cursor: pointer;
+    color: #c94141;
+}
+.x-cancel span:hover {
+    color: #c01d1d;
+}
+
+.wrapper-modal .modal input[type=text] {
+    width: 30rem;text-align: center;
+}
+
+.wrapper-modal .modal .buttons{
+    margin-top: 35px;
+}
+.wrapper-modal .modal .cancel{
+    border: none;
+    background: #c94141;
+    color: white;
+    padding: 10px 20px; border-radius: 7px;
+    font-size:19px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.wrapper-modal .modal .cancel:hover{
+    background: #c01d1d;
+}
+/* الحمد لله رب العالمين */
